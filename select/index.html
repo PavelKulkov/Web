@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<head>
+		<title>Анкета</title>
+		<script src = "jquery-2.1.4.min.js"></script>
+		<link href="style.css" rel="stylesheet">
+		<script src = "main.js"></script>
+	</head>
+	<body>
+		<h1>Анкета</h1>
+		<form name="Information">
+				<p>Как вас зовут<p>
+				<input name="name" id="name" size="15" placeholder="Имя" type="text">
+				<input name="surname" id="surname" size="15" placeholder="Фамилия" type="text">
+				<div id="nameError"></div>
+				<p>Придумайте имя пользователя</p>
+				<input name="login" id="login" size="30" placeholder="Логин" type="text">
+				<div id="loginError"></div>
+				<p>Введите электронную почту<p>
+				<input name="email" id="email" size="30" placeholder="E-mail" type="text">
+				<div id="emailError"></div>
+				<p>Введите дату рождения</p>
+				<input name="dayOfBirth" id="dayOfBirth" placeholder="01" maxlength="2" size="4" type="text">
+				<select name="month" id="monthOfBirth" >
+					<option>Январь</option>
+					<option>Февраль</option>
+					<option>Март</option>
+					<option>Апрель</option>
+					<option>Май</option>
+					<option>Июнь</option>
+					<option>Июль</option>
+					<option>Август</option>
+					<option>Сентябрь</option>
+					<option>Октябрь</option>
+					<option>Ноябрь</option>
+					<option>Декабрь</option>
+				</select>
+				<input name="yearOfBirth" id="yearOfBirth" placeholder="1970" maxlength="4" size="4" type="text"><br>
+				<div id="dateError"></div>
+				<p>Введите номер телефона</p>
+				<input size="1" placeholder="+7" disabled="disabled" type="text">
+				<input name="phoneCode" id="phoneCode" maxlength="3" size="3" type="text">
+				<input name="numberOfPhone" id="numberOfPhone" maxlength="7" size="7" type="text"><br>
+				<div id="phoneError"></div>
+				<input name="button" id="button" value="Зарегистрироваться" type="button" onClick="main()">
+		</form>
+		<div class="selectStyle">
+			<input  class = "buttonStyle" type="button" value="Тёмная" onClick="dark()" >
+			<input  class = "buttonStyle" type="button" value="Светлая" onClick="light()" >
+		</div>
+	</body>
+</html>

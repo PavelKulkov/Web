@@ -1,0 +1,24 @@
+body{
+	background-color:#ffffcc;
+}
+h1,form{
+	text-align:center;
+}
+h1,p,input,select{
+	color:#FF0000;
+}
+.selectStyle{
+	margin: 4% 10% 0 10%;
+	width: 80%;
+	text-align: center;
+}
+.buttonStyle{
+	width: 20%;
+	height: 40px;
+	border: 2px solid;
+    color: #040019;
+	display: inline;
+	margin: 0 3% 0 3%;
+	
+	
+}
