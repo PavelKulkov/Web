@@ -1,0 +1,42 @@
+body{
+	background-color:#ffffcc;
+}
+h1{
+	color:#3d85c6;
+	margin-left:5%;
+}
+.content{
+	margin-top:2%;
+	margin-left:25%;	
+}
+.result{
+	height:50px;
+	width:50%;
+	background-color:gray;
+	margin-left:25%;
+	margin-top:100px;
+	text-align:center;
+}
+.block{
+	background:#3d85c6;
+	color:yellow;
+	font-size:40px;
+	display:inline;
+	margin-left:10px;
+	cursor:pointer;
+}
+.btns{
+	margin-top:20%;
+	margin-left:40%;
+}
+.btnCheck,.btnClear{
+	cursor:pointer;
+	border-radius:5px;
+	color:#fefefe;
+	font-family:Arvo;
+	font-size:20px;
+	text-align:center;
+	padding:8px 20px;
+	background:#3d85c6;
+}
+

@@ -1,0 +1,33 @@
+.board{
+    width: 500px;
+	margin: 4% auto 0 auto;
+}
+.light_cell, .dark_cell{
+    width: 62px;
+    height: 62px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.light_cell{
+    background: url('images/light_cell.png');
+}
+.dark_cell{
+    background: url('images/dark_cell.png');
+}
+.button{
+	width: 90%;
+	display: inline-block;
+	margin: 0 5% 0 5%;
+	margin-top: 0.5%;
+}
+button{
+    width: 30%;
+	margin: 0 0 0 2.25%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #A0A0FF;
+	background: #FFDEDA;
+	display: inline-block;
+}
