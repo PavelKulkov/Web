@@ -10,7 +10,7 @@ h1{
 	margin-left:25%;	
 }
 .result{
-	height:50px;
+	height:56px;
 	width:50%;
 	background-color:gray;
 	margin-left:25%;
@@ -18,9 +18,10 @@ h1{
 	text-align:center;
 }
 .block{
-	background:#3d85c6;
-	color:yellow;
 	font-size:40px;
+	font-family:Comic Sans MS;
+	background:#3d85c6;
+	color:white;
 	display:inline;
 	margin-left:10px;
 	cursor:pointer;
