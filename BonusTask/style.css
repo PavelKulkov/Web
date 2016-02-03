@@ -2,7 +2,7 @@ body{
 	background-color:#ffffcc;
 }
 h1{
-	color:#3d85c6;
+	color:black;
 	margin-left:5%;
 }
 .content{
@@ -10,7 +10,7 @@ h1{
 	margin-left:25%;	
 }
 .result{
-	height:56px;
+	height:60px;
 	width:50%;
 	background-color:gray;
 	margin-left:25%;
@@ -20,7 +20,7 @@ h1{
 .block{
 	font-size:40px;
 	font-family:Comic Sans MS;
-	background:#3d85c6;
+	background:black;
 	color:white;
 	display:inline;
 	margin-left:10px;
@@ -33,11 +33,11 @@ h1{
 .btnCheck,.btnClear{
 	cursor:pointer;
 	border-radius:5px;
-	color:#fefefe;
+	color:black;
 	font-family:Arvo;
 	font-size:20px;
 	text-align:center;
 	padding:8px 20px;
-	background:#3d85c6;
+	
 }
 
