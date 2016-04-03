@@ -16,7 +16,7 @@ $(document).ready(function(){
 		for(var i=0;i < result.length;i++){
 			tmp+= result[i].innerText;
 		}
-		if(tmp.localeCompare(ANSWER) == 0){
+		if(tmp.localeCompare(ANSWER)== 0){
 			alert("Всё верно!");
 		}
 		else{
